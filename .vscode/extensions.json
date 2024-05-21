@@ -1,0 +1,9 @@
+{
+    // Extension recommendation to help initial setup
+    "recommendations": [
+        "dbaeumer.vscode-eslint", // ESLint - Integrates ESLint JavaScript into VS Code
+        "ms-vscode.vscode-typescript-tslint-plugin", // TSLint - Lints TypeScript
+        "streetsidesoftware.code-spell-checker", // Code Spell Checker
+        "esbenp.prettier-vscode", // Prettier - Code formatter
+    ]
+}
