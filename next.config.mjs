@@ -5,7 +5,7 @@ const nextConfig = {
       {
         // spotifys cdn
         protocol: "https",
-        hostname: "scdn.co",
+        hostname: "*.scdn.co",
         port: "",
         pathname: "/**",
       },
@@ -14,4 +14,3 @@ const nextConfig = {
 };
 
 export default nextConfig;
-
