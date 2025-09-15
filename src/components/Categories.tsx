@@ -2,6 +2,8 @@
 
 import React from "react";
 
+// TODO. Call useFetchCategories and render categories
+
 const Categories = () => {
   return (
     <div className="w-full bg-gray-100 p-6">
@@ -17,11 +19,10 @@ const Categories = () => {
           {Array.from({ length: 8 }).map((_, index) => (
             <div
               key={index}
-              className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+              className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col gap-3"
             >
-              <div className="h-32 bg-gray-200 rounded-lg mb-4"></div>
-              <div className="h-6 bg-gray-300 rounded w-3/4 mb-2"></div>
-              <div className="h-6 bg-gray-300 rounded w-1/2"></div>
+              <div className="h-32 animate-pulse bg-gray-200 rounded-lg"></div>
+              <div className="h-6 animate-pulse bg-gray-300 rounded w-3/4"></div>
             </div>
           ))}
         </div>
