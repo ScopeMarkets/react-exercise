@@ -3,7 +3,7 @@ import React from "react";
 const Navigation = () => {
   return (
     <div className="w-full bg-gray-900 text-white p-4">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="flex flex-col md:flex-row container mx-auto justify-between items-center gap-5">
         {/* Logo */}
         <div className="text-2xl font-bold">
           <a href="#">Scope Markets Spotify</a>
@@ -28,6 +28,7 @@ const Navigation = () => {
         {/* Search Bar */}
         <div className="relative">
           <input
+            name="search"
             type="text"
             className="bg-gray-800 text-white rounded-full pl-10 pr-4 py-2 focus:outline-none"
             placeholder="Search..."
