@@ -15,8 +15,8 @@ A basic tech test involving Spotify integration. Scope Markets are building thei
 
 #### Versioning
 
-* Node version: `v21.7.3`
-* NPM version: `10.5.0`
+* Node version: `v24.4.1`
+* NPM version: `11.4.2`
 
 #### Environment Setup
 
